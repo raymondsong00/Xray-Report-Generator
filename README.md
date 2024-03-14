@@ -48,6 +48,7 @@ Current default values in all the script files are for the generic prompt. Modif
 5. Classification
 6. BART
 7. Summary
+8. Few Shot Prompts
 
 ### Data
 ```
@@ -98,4 +99,16 @@ make bart-eval
 Uses a transformer to generate a report summary that is used for the bart scoring.
 ```
 make summary
+```
+
+### Few Shot Prompts
+Modifies the prompts to have instructions about how to read the data.
+To modify the generic prompt:
+```
+make few_shot TARGET=generic
+```
+or
+To modify the context prompt
+```
+make few_shot TARGET=context
 ```

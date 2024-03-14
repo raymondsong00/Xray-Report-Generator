@@ -37,3 +37,9 @@ summary:
 	conda deactivate
 	conda activate datalite_env
 	./scripts/run_generate_summaries.sh
+
+few_shot:
+	@TARGET="${TARGET}"
+	conda deactivate
+	conda activate datalite_env
+	python3 ./src/few_shot_prompts.py ${TARGET}
