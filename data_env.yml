@@ -1,0 +1,31 @@
+name: datalite_env
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - gensim
+  - jupyterlab
+  - catboost
+  - matplotlib
+  - ipywidgets
+  - nltk
+  - numpy
+  - python=3.10
+  - xgboost
+  - pandas
+  - opencv
+  - torchvision
+  - scipy
+  - seaborn
+  - pillow
+  - bokeh
+  - ipython
+  - jupyter
+  - spacy
+  - scikit-image
+  - lightgbm
+  - h5py
+  - plotly
+  - pytorch
+  - ipympl
+prefix: /home/llm-hackathon/enter/envs/datalite_env
